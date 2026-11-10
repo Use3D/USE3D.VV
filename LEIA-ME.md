@@ -1,36 +1,21 @@
-# Use3D — publicação no GitHub Pages
+# Use3D — site e GitHub Pages
 
-Este é o site estático completo. Mantenha `index.html` e a pasta `assets/` lado a lado, na raiz do repositório.
+Site estático de modelagem e impressão 3D. Os arquivos publicados ficam em `docs/`: `docs/index.html` contém o site e `docs/assets/` contém as imagens e fontes. O ZIP na raiz é uma cópia do pacote original, não é usado na publicação.
 
-## Caminho mais fácil: GitHub Desktop
+## Publicação
 
-1. Baixe e descompacte este pacote.
-2. No GitHub, crie um repositório público chamado `use3d-site`.
-3. Instale o GitHub Desktop e clone o repositório recém-criado.
-4. Copie `index.html` e a pasta `assets/` deste pacote para a pasta local do repositório.
-5. No GitHub Desktop, escreva uma mensagem como `Publica o site Use3D`, clique em **Commit to main** e depois em **Push origin**.
-6. No site do GitHub, abra o repositório → **Settings** → **Pages**.
-7. Em **Build and deployment**, selecione **Deploy from a branch**.
-8. Em **Branch**, selecione `main` e a pasta `/(root)`, depois clique **Save**.
-9. Aguarde a publicação. O link ficará no formato `https://SEU-USUARIO.github.io/use3d-site/`.
+O GitHub Pages deste repositório está configurado para publicar a pasta `/docs` da branch `main`. Depois que as alterações desta branch forem incorporadas à `main`, o GitHub publicará o site automaticamente em:
 
-## Alternativa pelo terminal
+https://use3d.github.io/USE3D.VV/
 
-Depois de instalar o Git e criar um repositório público vazio chamado `use3d-site` no GitHub, abra esta pasta no terminal e rode:
+Para conferir a publicação, acesse **Settings → Pages** e verifique se a origem está em **Deploy from a branch**, branch `main`, pasta `/docs`. Acompanhe também **Actions** ou a seção de implantação do repositório. A publicação pode levar alguns minutos.
+
+## Visualizar e editar
+
+Para testar localmente, execute na raiz do repositório:
 
 ```bash
-git init
-git branch -M main
-git add index.html assets
-git commit -m "Publica o site Use3D"
-git remote add origin https://github.com/SEU-USUARIO/use3d-site.git
-git push -u origin main
+python3 -m http.server 8000 --directory docs
 ```
 
-Troque `SEU-USUARIO` pelo seu nome de usuário GitHub. Em seguida, habilite Pages seguindo os passos 6–9 acima.
-
-## Para atualizar depois
-
-Substitua o `index.html` e/ou os arquivos em `assets/`, faça commit e envie (Push). O GitHub Pages publica as alterações novamente.
-
-**Importante:** não envie apenas o arquivo ZIP para o repositório. Descompacte-o primeiro; o `index.html` precisa ficar na raiz, com `assets/` ao lado. Os endereços de orçamento já apontam para o WhatsApp informado.
+Acesse `http://localhost:8000/`. Edite `docs/index.html` e mantenha imagens e fontes em `docs/assets/`; use caminhos relativos para que funcionem também no endereço do Pages. Os links de orçamento apontam para o WhatsApp cadastrado no site; confira o número antes de divulgar.
