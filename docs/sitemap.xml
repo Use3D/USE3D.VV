@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://use3d.github.io/USE3D.VV/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://use3d.github.io/USE3D.VV/assets/og-use3d.jpg</image:loc>
+      <image:title>Use3D — Modelagem e Impressão 3D Sob Medida em Vila Velha, ES</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://use3d.github.io/USE3D.VV/assets/studio.webp</image:loc>
+      <image:title>Impressora 3D no estúdio Use3D em Vila Velha, Espírito Santo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://use3d.github.io/USE3D.VV/assets/organizer.webp</image:loc>
+      <image:title>Organizador de mesa sob medida em impressão 3D Use3D</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://use3d.github.io/USE3D.VV/assets/figure-zoro.webp</image:loc>
+      <image:title>Figura colecionável personalizada impressa em 3D pela Use3D</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://use3d.github.io/USE3D.VV/assets/figure-sukuna.webp</image:loc>
+      <image:title>Figura de coleção feita em impressão 3D pela Use3D</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://use3d.github.io/USE3D.VV/assets/figure-hero.webp</image:loc>
+      <image:title>Figura personalizada criada em impressão 3D pela Use3D</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://use3d.github.io/USE3D.VV/termos.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://use3d.github.io/USE3D.VV/privacidade.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://use3d.github.io/USE3D.VV/lgpd.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

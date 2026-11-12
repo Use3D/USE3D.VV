@@ -1,0 +1,23 @@
+{
+  "name": "Use3D — Modelagem e Impressão 3D Sob Medida",
+  "short_name": "Use3D",
+  "description": "Modelagem e impressão 3D sob medida em Vila Velha, ES, com envio para todo o Brasil.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#111110",
+  "theme_color": "#111110",
+  "icons": [
+    {
+      "src": "assets/use3d-icon.jpg",
+      "sizes": "538x588",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "assets/use3d-logo.jpg",
+      "sizes": "1080x1080",
+      "type": "image/jpeg"
+    }
+  ]
+}
