@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://use3d.github.io/USE3D.VV/sitemap.xml
